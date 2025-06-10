@@ -6,7 +6,7 @@ env:
   device: lemonadep
   clang_version: r416183b
   defconfig: |
-    gki_defconfig
+    rockpi4_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
