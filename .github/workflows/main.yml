@@ -2,7 +2,7 @@ name: Check and Build
 
 env:
   kernel_repository: crdroidandroid/android_kernel_oneplus_sm8350
-  kernel_branch: origin/15.0
+  kernel_branch: 15.0-20250411
   device: lemonadep
   clang_version: r416183b
   defconfig: |
