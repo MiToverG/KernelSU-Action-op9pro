@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: OnePlusOSS/android_kernel_oneplus_sm8350
-  kernel_branch: oneplus/SM8350_S_12.0_9Pro
+  kernel_repository: crdroidandroid/android_kernel_oneplus_sm8350
+  kernel_branch: 15.0
   device: lemonadep
   clang_version: r416183b
   defconfig: |
-    lahaina_QGKI.config
+    lahaina-qgki_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
